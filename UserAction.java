@@ -14,6 +14,7 @@ public class UserAction extends ActionSupport {
 	{   System.out.println("执行第一个action");
 		System.out.println(user.getName());
 		System.out.println(user.getPass());
+		System.out.println(user.getPass());
 		return SUCCESS;
 	}
 
