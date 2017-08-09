@@ -7,7 +7,7 @@ import cn.pro.model.User;
 
 public class UserAction extends ActionSupport {
 	
-	private User user;    //第二种传递参数的方法222
+	private User user;    
 	
 	public String add()
 	
