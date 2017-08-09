@@ -1,4 +1,4 @@
-package cn.pro.action;
+锘縫ackage cn.pro.action;
 
 
 import com.opensymphony.xwork2.ActionSupport;
@@ -7,11 +7,11 @@ import cn.pro.model.User;
 
 public class UserAction extends ActionSupport {
 	
-	private User user;    //第二种传递参数的方法
+	private User user;    //绗簩绉嶄紶閫掑弬鏁扮殑鏂规硶
 	
 	public String add()
 	
-	{   System.out.println("执行第一个action");
+	{  
 		System.out.println(user.getName());
 		System.out.println(user.getPass());
 		System.out.println(user.getPass());
